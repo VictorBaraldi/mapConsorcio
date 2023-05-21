@@ -1,0 +1,31 @@
+.menuContainer {
+  border-bottom: 1px solid #eee;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 5rem;
+}
+
+.menuColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  font-size: 0.75rem;
+  margin-top: 0.5rem;
+}
+
+.menuRow a {
+  text-transform: uppercase;
+}
+
+.menuColumn a,
+.menuRow a {
+  color: black;
+}
+
+.menuRow a:not(:last-child) {
+  margin-right: 1rem;
+}
