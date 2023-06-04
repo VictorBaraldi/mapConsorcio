@@ -5,7 +5,6 @@ import styles from '../styles/header.module.css';
 const NavMenu = ({ column }) => {
   return (
     <nav className={column ? styles.menuColumn : styles.menuRow}>
-      <p>{column}</p>
       <Link to="/">Home</Link>
       <Link to="/quem-somos">Quem Somos</Link>
       <Link to="/vender">Vender Meu Consórcio</Link>

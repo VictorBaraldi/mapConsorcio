@@ -8,7 +8,7 @@ const Footer = () => {
     <div className={`${styles.grid} ${global.container}`}>
       <div>
         <h2>logo</h2>
-        <p>
+        <p className={`${styles.desc} ${global.fonte1}`}>
           Há mais de 10 anos atuando no mercado financeiro, temos experiência e
           conhecimento que empregamos nas transações, proporcionando aos nossos
           cliente uma negociação segura e com excelente avaliação e preço. Somos

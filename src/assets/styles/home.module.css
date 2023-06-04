@@ -1,0 +1,19 @@
+.intro {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.vender {
+  max-width: 320px;
+  margin: 20vh auto 0;
+}
+
+.etapas {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.etapasTitle {
+  text-align: center;
+  font-family: 'Poppins';
+}

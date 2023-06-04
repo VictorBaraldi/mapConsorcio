@@ -1,7 +1,12 @@
 import React from 'react';
 import global from '../styles/global.module.css';
+import ChangeTitle from '../helper/title';
 
 const About = () => {
+  ChangeTitle(
+    'Conheça Nossa Empresa, Somos especialistas em Compra de consórcio',
+  );
+
   return (
     <div className={`${global.container}`}>
       <div>
