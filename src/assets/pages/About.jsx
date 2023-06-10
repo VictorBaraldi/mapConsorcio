@@ -1,6 +1,7 @@
 import React from 'react';
 import global from '../styles/global.module.css';
 import ChangeTitle from '../helper/title';
+import Email from '../components/email';
 
 const About = () => {
   ChangeTitle(
@@ -9,12 +10,13 @@ const About = () => {
 
   return (
     <div className={`${global.container}`}>
-      <div>
-        <h2>Preencha o Formulário para Vender seu Consórcio</h2>
-      </div>
-      <div>
-        <h2>Preencha o Formulário para Vender seu Consórcio</h2>
-      </div>
+      <section>
+        <h2>Quero Vender meu Consórcio</h2>
+      </section>
+      <section>
+        <h2>Por que nos escolher?</h2>
+      </section>
+      <Email />
     </div>
   );
 };

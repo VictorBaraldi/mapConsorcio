@@ -8,7 +8,6 @@ const NavMenu = ({ column }) => {
       <Link to="/">Home</Link>
       <Link to="/quem-somos">Quem Somos</Link>
       <Link to="/vender">Vender Meu Consórcio</Link>
-      <Link to="/perguntas-frequentes">Perguntas Frequentes</Link>
       <Link to="/contato">Fale Conosco</Link>
     </nav>
   );
